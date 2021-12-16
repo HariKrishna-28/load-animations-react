@@ -1,5 +1,5 @@
 {
-  "name": "react-loading-animations",
+  "name": "load-animations-react",
   "version": "1.0.0",
   "description": "Loading animations for react",
   "main": "dist/index.js",
