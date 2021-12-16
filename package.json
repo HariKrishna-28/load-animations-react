@@ -1,16 +1,25 @@
 {
   "name": "load-animations-react",
-  "version": "1.0.2",
-  "description": "Loading animations for react",
+  "version": "1.0.3",
+  "description": "CSS Loading animations for ReactJs",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HariKrishna-28/load-animations-react.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-lib": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "React Loading Animations",
+    "ReactJs",
+    "CSS Loaders"
+  ],
+  "homepage": "https://github.com/HariKrishna-28",
+  "author": "Harikrishna C",
+  "license": "MIT",
   "devDependencies": {
     "@babel/preset-react": "^7.16.5",
     "@rollup/plugin-node-resolve": "^13.1.1",
