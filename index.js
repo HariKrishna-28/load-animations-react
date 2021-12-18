@@ -5,4 +5,5 @@ export { default as EllipsisLoader } from './loaders/EllipsisLoader'
 export { default as RippleLoader } from './loaders/RippleLoader'
 export { default as GridLoader } from './loaders/GridLoader'
 export { default as RotateLoader } from './loaders/RotateLoader'
+export { default as BoxLoader } from './loaders/BoxLoader'
 
