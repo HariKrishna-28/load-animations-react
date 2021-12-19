@@ -1,6 +1,6 @@
 {
   "name": "load-animations-react",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "CSS Loading animations for ReactJs",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
