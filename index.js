@@ -6,4 +6,5 @@ export { default as RippleLoader } from './loaders/RippleLoader'
 export { default as GridLoader } from './loaders/GridLoader'
 export { default as RotateLoader } from './loaders/RotateLoader'
 export { default as BoxLoader } from './loaders/BoxLoader'
+export { default as ScaleLoader } from './loaders/ScaleLoader'
 

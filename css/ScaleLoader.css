@@ -6,9 +6,10 @@
 
 .spinner > div {
   height: 100%;
-  width: 6px;
+  width: 5px;
   display: inline-block;
-
+  margin-left: 1px;
+  margin-right: 1px;
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
