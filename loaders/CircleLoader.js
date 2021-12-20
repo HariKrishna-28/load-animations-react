@@ -3,8 +3,8 @@ import '../css/CircleLoader.css'
 
 const CircleLoader = ({ color = "black" }) => {
     const style = {
-        borderTop: `9px solid ${color}`,
-        borderBottom: `9px solid ${color}`
+        borderTop: `13px solid ${color}`,
+        borderBottom: `13px solid ${color}`
     }
     return (
         <div class="loader" style={style}></div>
