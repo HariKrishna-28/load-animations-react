@@ -1,13 +1,13 @@
 import React from 'react'
-import '../css/CircleSpinner.css'
-
+import '../css/CircleLoader.css'
 
 const CircleLoader = ({ color = "black" }) => {
+    const style = {
+        borderTop: `9px solid ${color}`,
+        borderBottom: `9px solid ${color}`
+    }
     return (
-        <div class="circle" >
-            <div style={{ backgroundColor: color }} ></div>
-        </div>
-
+        <div class="loader" style={style}></div>
     )
 }
 

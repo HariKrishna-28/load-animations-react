@@ -1,0 +1,14 @@
+.loader {
+  border: 10px solid transparent;
+  /* border-top: 20px solid #fff;
+    border-bottom: 20px solid #fff; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
