@@ -1,15 +1,15 @@
 #loader {
   position: absolute;
-  width: 5.4em;
-  height: 5.4em;
+  width: 5.5em;
+  height: 5.5em;
   background-color: transparent;
 }
 
 #hill {
   position: absolute;
-  width: 7.1em;
-  height: 7.1em;
-  top: 1.7em;
+  width: 5.1em;
+  height: 5.1em;
+  top: 2.3em;
   left: 1.7em;
   background-color: transparent;
   /* border-left: 0.25em solid whitesmoke; */
@@ -19,8 +19,8 @@
 #hill:after {
   content: "";
   position: absolute;
-  width: 7.1em;
-  height: 7.1em;
+  width: 5.1em;
+  height: 5.1em;
   left: 0;
   background-color: transparent;
 }
