@@ -1,0 +1,29 @@
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ldr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: auto; */
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.ldr-blk {
+  height: 35%;
+  width: 35%;
+  animation: pulse 0.5s ease-in infinite alternate;
+}
+
+.an_delay {
+  animation-delay: 0.5s;
+}
