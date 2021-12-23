@@ -6,12 +6,19 @@ const ScaleLoader = ({ color = "black" }) => {
         backgroundColor: `${color} `
     }
     return (
-        <div class="spinner">
-            <div class="rect1" style={style}></div>
-            <div class="rect2" style={style}></div>
-            <div class="rect3" style={style}></div>
-            <div class="rect4" style={style}></div>
-            <div class="rect5" style={style}></div>
+        // <div className="spinner">
+        //     <div className="rect1"></div>
+        //     <div className="rect2"></div>
+        //     <div className="rect3"></div>
+        //     <div className="rect4"></div>
+        //     <div className="rect5"></div>
+        // </div>
+        <div className="scale-spinner">
+            <div className="rect1" style={style}></div>
+            <div className="rect2" style={style}></div>
+            <div className="rect3" style={style}></div>
+            <div className="rect4" style={style}></div>
+            <div className="rect5" style={style}></div>
         </div>
     )
 }
