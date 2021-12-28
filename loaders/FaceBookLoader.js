@@ -7,7 +7,7 @@ const FaceBookLoader = ({ color = "black" }) => {
     }
 
     return (
-        <div class="lds-facebook">
+        <div className="lds-facebook">
             <div style={style}></div>
             <div style={style}></div>
             <div style={style}></div>

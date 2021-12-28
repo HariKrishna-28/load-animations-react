@@ -7,7 +7,7 @@ const RingLoader = ({ color = "black" }) => {
     }
 
     return (
-        <div class="lds-ring">
+        <div className="lds-ring">
             <div style={style}></div>
             <div style={style}></div>
             <div style={style}></div>

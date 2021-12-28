@@ -1,7 +1,7 @@
 .scale-spinner {
   /* margin: 100px auto; */
-  width: 50px;
-  height: 40px;
+  width: 70px;
+  height: 50px;
   text-align: center;
   font-size: 18px;
   /* letter-spacing: 1px; */
@@ -11,7 +11,7 @@
   /* background-color: red; */
   border-radius: 10px;
   height: 100%;
-  width: 4px;
+  width: 4.2px;
   display: inline-block;
   margin: 0 1px;
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;

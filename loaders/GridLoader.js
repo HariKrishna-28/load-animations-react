@@ -7,7 +7,7 @@ const GridLoader = ({ color = "black" }) => {
     }
 
     return (
-        <div class="lds-grid">
+        <div className="lds-grid">
             <div style={style}></div>
             <div style={style}></div>
             <div style={style}></div>

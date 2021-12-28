@@ -3,7 +3,7 @@ import '../css/BoxLoader.css'
 
 const BoxLoader = ({ color = "black" }) => {
     return (
-        <div class="spinner"
+        <div className="spinner"
             style={{ backgroundColor: color }}>
         </div>
     )

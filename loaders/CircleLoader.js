@@ -6,7 +6,7 @@ const CircleLoader = ({ color = "black" }) => {
         borderColor: `${color} transparent`
     }
     return (
-        <div class="loader" style={style}></div>
+        <div className="loader" style={style}></div>
     )
 }
 

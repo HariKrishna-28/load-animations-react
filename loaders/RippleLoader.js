@@ -7,7 +7,7 @@ const RippleLoader = ({ color = "black" }) => {
         border: `4px solid ${color} `
     }
     return (
-        <div class="lds-ripple">
+        <div className="lds-ripple">
             <div style={style}></div>
             <div style={style}></div>
         </div>

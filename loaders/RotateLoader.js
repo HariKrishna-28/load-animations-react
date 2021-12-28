@@ -6,7 +6,7 @@ const RotateLoader = ({ color = "black" }) => {
         backgroundColor: color
     }
     return (
-        <div class="lds-default">
+        <div className="lds-default">
             <div style={style}></div>
             <div style={style}></div>
             <div style={style}></div>

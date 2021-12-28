@@ -7,7 +7,7 @@ const EllipsisLoader = ({ color = "black" }) => {
         backgroundColor: color
     }
     return (
-        <div class="lds-ellipsis">
+        <div className="lds-ellipsis">
             <div style={style}></div>
             <div style={style}></div>
             <div style={style}></div>
